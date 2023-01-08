@@ -1,0 +1,28 @@
+.Services{
+    display: flex;
+    width : 100%;
+    max-height: auto;
+    font-family: System;
+
+
+}
+.serviceimg{
+    flex: 60%;
+    height: 22rem;
+    border-radius: 0%;
+    margin: auto;
+    margin-top: 2rem;
+    }
+.service1{
+    flex: 60%;
+}
+.service2{
+   flex:40%;
+   margin: auto;
+
+}
+@media only screen and (max-width:480px) {
+    .service2{
+        font-size:15px;
+    }
+}

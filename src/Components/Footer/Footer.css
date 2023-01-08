@@ -1,0 +1,30 @@
+.Footer{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(125, 121, 127);
+    color: black;
+    display: flex;
+    font-family: system;
+    
+}
+.column1{
+    margin: auto;
+    flex:33.33%;
+    margin-top: 2rem;
+}
+.column2{
+    list-style-type: none;
+    text-align: center;
+}
+.column3{
+    padding-top: 1rem;
+    padding-left: 0rem;
+}
+.hr{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(125, 121, 127);
+    text-align: center;
+   color: black;
+
+}

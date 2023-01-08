@@ -1,0 +1,87 @@
+.row{
+    box-sizing: border-box;
+    display :table;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+}
+
+.col-2{
+    width: 50%;
+    height: auto;
+    background-position: right ;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: table;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.col-1{
+    width: 50%;
+    margin-top: 12%;
+    vertical-align: middle;
+    text-align: left;
+    background-color: transparent;
+}
+.about1{
+    font-family: Script MT;
+    font-size: 19px;
+    justify-content:left;
+}
+.btn{
+    padding: 10px;
+    color: rgb(12, 8, 8);
+    background-color : rgb(146, 39, 196);
+    border-radius: 10px;
+    border: none;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+.Works{
+    margin: auto;
+    padding:20px;
+    margin-top: 2rem;
+    background-color: rgb(240, 221, 247);
+    border-radius: 5px;
+}
+
+.works{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.lists{
+    text-align: center;
+    flex: 33.33%;
+    margin: auto;
+   
+}
+@media only screen and (max-width:480px){
+    .Works{
+        padding:0px;
+        margin-top: 1rem;
+    }
+    
+.lists{
+    text-align: center;
+    flex: 33.33%;
+    margin: auto;
+   font-size: 9px;
+}
+.about1{
+    font-family: Script MT;
+    font-size: 15px;
+    justify-content:left;
+    font-style: italic;
+}
+.col-1{
+    font-size: 15px;
+}
+}

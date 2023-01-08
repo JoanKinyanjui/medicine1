@@ -1,0 +1,55 @@
+.Pills{
+    display: flex;
+    font-family: System;
+    font-size: 13px;
+}
+.pills{
+    font-family: System;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    box-shadow: 6px 6px 8px rgb(27, 23, 29);
+    width: 560px;
+    height: max-content;
+    
+
+}
+.gloww{
+    width: 250px;
+    height: 200px;
+}
+.Purchase{
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+
+}
+.text a i{
+    margin-right: 2rem;
+}
+@media only screen and (max-width:768px){
+    .pills{
+        font-family: System;
+        font-size: 15px;
+        box-shadow: 3px 3px 4px rgb(27, 23, 29);
+        width: 360px;
+        height: max-content;
+        
+    
+    }
+}
+@media only screen and (max-width:480px){
+    .pills{
+        font-family: System;
+        font-size: 15px;
+        box-shadow: 2px 2px 3px rgb(27, 23, 29);
+        width: 240px;
+        height: max-content;
+        
+    }
+    .gloww{
+        width: 200px;
+        height: 160px;
+    }
+}
